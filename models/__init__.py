@@ -1,0 +1,1 @@
+from .sabrimalaqr import ClsQR

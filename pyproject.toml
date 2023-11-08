@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ms-sabarimala"
+version = "0.1.0"
+description = "API for sabarimala microsite"
+authors = ["Rabti Ranjan <rabti.ranjan@travelyaari.com>"]
+readme = "README.md"
+packages = [{include = "ms_sabarimala"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sengo = "^0.0.2"
+shortuuid = "^1.0.11"
+pytz = "^2023.3.post1"
+redis = "^5.0.1"
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standard"], version = "^0.24.0.post1"}
+fastapi-health = "^0.4.0"
+segno = "^1.5.3"
+boto3 = "^1.28.79"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
